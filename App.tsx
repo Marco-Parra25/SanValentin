@@ -122,8 +122,8 @@ const App: React.FC = () => {
             )}
 
             {stage === AppStage.READING && (
-              <div className="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-2xl max-w-2xl w-full mx-4 border border-pink-100 animate-in fade-in slide-in-from-bottom-10 duration-1000 z-50">
-                <p className="font-handwriting text-2xl md:text-3xl leading-relaxed text-gray-800 mb-8 text-left">
+              <div className="bg-white/90 backdrop-blur-sm p-6 md:p-12 rounded-2xl shadow-2xl max-w-2xl w-full mx-4 border border-pink-100 animate-in fade-in slide-in-from-bottom-10 duration-1000 z-50">
+                <p className="font-handwriting text-lg sm:text-2xl md:text-3xl leading-relaxed text-gray-800 mb-8 text-left">
                   “Mi preciosa niña bella <span className="text-valentine-600 font-bold">Anais Antonia Jara Cariman</span>,
                   <br /><br />
                   Desde que llegaste a mi vida, cada día tiene un sentido diferente, un motivo, un objetivo, en el cual siempre estas tu en el final del camino, con nuestra casita, nuestros bebes perrunos y nuestros hijos, eres lo mas lindo que tengo y agradezco todos los dias a la vida por haberme permitido conocerte.
@@ -147,7 +147,7 @@ const App: React.FC = () => {
           <div className="flex flex-col items-center animate-in zoom-in duration-500 w-full">
 
             {/* Dynamic Photo Slideshow */}
-            <div className="mb-8 h-[300px] w-[280px] md:w-[320px] relative">
+            <div className="mb-8 h-[300px] w-[85vw] max-w-[280px] md:w-[320px] relative">
               {photos.map((photo, index) => (
                 <div
                   key={index}
@@ -164,8 +164,8 @@ const App: React.FC = () => {
               ))}
             </div>
 
-            <div className="bg-white/80 backdrop-blur-md p-8 rounded-3xl shadow-2xl border-4 border-valentine-200 max-w-lg w-full relative z-20 -mt-10 pt-12">
-              <h2 className="font-handwriting text-4xl md:text-5xl text-valentine-600 mb-6 leading-tight">
+            <div className="bg-white/80 backdrop-blur-md p-6 md:p-8 rounded-3xl shadow-2xl border-4 border-valentine-200 max-w-lg w-full relative z-20 -mt-10 pt-10 md:pt-12 mx-4">
+              <h2 className="font-handwriting text-3xl md:text-5xl text-valentine-600 mb-6 leading-tight">
                 ¿Quieres ser mi San Valentín, <br />
                 <span className="text-valentine-800">Anais Antonia Jara Cariman</span>? 💘
               </h2>
@@ -211,7 +211,7 @@ const App: React.FC = () => {
                 <Heart className="text-red-500 w-20 h-20 animate-heartbeat mb-4 fill-red-500" />
 
                 <h2 className="font-handwriting text-5xl md:text-6xl text-valentine-600 mb-6">
-                  ¡Sabía que dirías que sí! 💖
+                  ¡Tyyyyy! ¡Sabía que dirías que sí! 💖
                 </h2>
 
                 <p className="text-xl md:text-2xl text-gray-700 leading-relaxed font-sans font-bold">
